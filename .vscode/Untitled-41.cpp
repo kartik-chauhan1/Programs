@@ -8,13 +8,7 @@ int main() {
 
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
-
-    cout << "\nMenu:\n";
-    cout << "1. Add\n";
-    cout << "2. Subtract\n";
-    cout << "3. Multiply\n";
-    cout << "4. Divide\n";
-    cout << "Enter your choice (1-4): ";
+    cout << "Enter your choice : ";
     cin >> choice;
 
     switch (choice) {
