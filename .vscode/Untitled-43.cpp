@@ -19,7 +19,7 @@ int main() {
             break;
         case 8:
             cout << "Grade: A" << endl;
-            break;
+         break;
         case 7:
             cout << "Grade: B" << endl;
             break;
