@@ -11,12 +11,12 @@ int main() {
     int i;
     cout << "Enter a number: ";
     cin >> i;
-
+    
    int a = E(i);
    if(a==1) 
     cout<<"even";
     else{
-        cout<<"odd";
+      cout <<"odd";
     }
 
 }
