@@ -5,8 +5,7 @@ int odd(int n) {
     for(int i=1; i<=n; i++) 
          f=f*i;
      return f;
-        
-    
+           
 }
 int main() {
     int n;
