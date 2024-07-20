@@ -4,7 +4,7 @@ int main()
 {
 
     int n, a= -1, b = 1, c,i,d;
-    cout << "Enter the number of terms: ";
+    cout << "Enter the number  of terms: ";
     cin >> n;
     for (i = 1; i<=n;  i++) 
     {
