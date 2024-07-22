@@ -13,7 +13,7 @@ int main()
             cout << alphabet << " ";
             alphabet++;
         }
-        cout << "\n";             
+        cout <<"\n";             
     }
     return 0;
 }
