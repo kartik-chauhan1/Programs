@@ -7,11 +7,9 @@ int main() {
     if (num1 > l) {
         l = num1;
     }
-
     if (num2> l) {
         l = num2;
     }
-     
     else
     {
     	cout<<"equal";
