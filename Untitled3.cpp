@@ -9,7 +9,7 @@ int main()
 	{
 		if(i&1)
 		{
-			sum=sum+i;
+    		sum=sum+i;
 		}
 	}
 	cout<<sum;
