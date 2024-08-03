@@ -8,7 +8,7 @@ int main()
     int m;
     cout<<"Enter Expression: ";
     cin>>m;
-
+    
     int a,b,c;
     cout<<"Enter lenght of tringles sides : ";
     cin>>a>>b>>c;

@@ -2,7 +2,6 @@
 using namespace std;
 int main() 
 {
-
     int n, a= -1, b = 1, c,i,d;
     cout << "Enter the number  of terms: ";
     cin >> n;
