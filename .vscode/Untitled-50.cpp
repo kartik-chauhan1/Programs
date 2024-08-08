@@ -1,15 +1,21 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
-    int a=0,b=1,c,n,i;
-    cout<<"Enter the value :";
-    cin>>n;
-    for(i=1;i<=n;i++)
-    {
-        cout<<a<<" ";
-        c=a+b;
-         a=b;
-         b=c;     
+    int number,sum=0,temp,temp2;
+    cout<<"Enter the number:";
+    cin>>number;
+    temp2=number;
+    for(int i=0;number>0;i++){
+        temp=number%10;
+        temp=temp*temp*temp;
+        sum=sum+temp;
+        number=number/10;
+    }
+    if(sum==temp2){
+        cout<<"Number is armstrong";
+    }
+    else{
+        cout<<"Number is not a armstrong";
     }
 
 }
